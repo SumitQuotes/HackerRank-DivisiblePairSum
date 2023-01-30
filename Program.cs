@@ -36,7 +36,7 @@ class Result
                 if (i < j)
                 {
                     var sum = ar[i] + ar[j];
-                    if (sum % k == 0)
+                    if (sum / k == 0)
                     {
                         count++;
                     }
